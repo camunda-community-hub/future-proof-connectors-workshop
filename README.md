@@ -1,8 +1,13 @@
-[![Community Extension](https://img.shields.io/badge/Community%20Extension-An%20open%20source%20community%20maintained%20project-FF4700)](https://github.com/camunda-community-hub/community)
-[![](https://img.shields.io/badge/Lifecycle-Incubating-blue)](https://github.com/Camunda-Community-Hub/community/blob/main/extension-lifecycle.md#incubating-)
+# Workshop: Camunda Connectors unleashed - Crafting future-proof low-code solutions
+<img src="https://img.shields.io/badge/Version-Under%20Construction-red">
+<img src="https://img.shields.io/badge/Tutorial%20Reference%20Project-Tutorials%20for%20getting%20started%20with%20Camunda-%2338A3E1)">
 
-# Welcome to the Camunda Community Hub Repository Template!
+> This workshop has been created for CamundaCon New York 2024 but can also be completed asynchronously.
 
-The Camunda Community Hub is a project to empower our open source community extension maintainers, and encourage new contributors to get started contributing to the Camunda open source ecosystem.
+## Abstract
+Join us for practical insight into the world of Camunda connectors, and learn how to best use them cleanly and efficiently
+in low-code environments. We’ll look at the common challenges of using connectors and explain how to develop your own that
+are sustainable and suited to specific needs of our business. We will also dive into development to understand the Camunda
+connector ecosystem holistically, and put all the pieces of the puzzle together to design a holistic clean process architecture
+that can be operated sustainably and is future-proofed with Camunda connectors.
 
-If you are building a new Camunda Community extension, please follow the instructions detailed in our [Community Repository](https://github.com/camunda-community-hub/community). Once those steps had been completed, please feel free to make use of this repository to build your new extension from!
