@@ -4,9 +4,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>io.miragon.consulting</groupId>
-        <artifactId>futue-proof-connector</artifactId>
-        <version>1.0.0</version>
+        <groupId>io.miragon</groupId>
+        <artifactId>future-proof-connectors-workshop</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
     </parent>
 
     <artifactId>kyc-process-app</artifactId>
@@ -31,35 +31,29 @@
     </dependencyManagement>
 
     <dependencies>
-
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter</artifactId>
         </dependency>
-
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <version>${lombok.version}</version>
             <scope>provided</scope>
         </dependency>
-
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
-
         <dependency>
             <groupId>org.springdoc</groupId>
             <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
             <version>2.2.0</version>
         </dependency>
-
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-core</artifactId>
         </dependency>
-
         <dependency>
             <groupId>io.camunda.spring</groupId>
             <artifactId>spring-boot-starter-camunda</artifactId>
