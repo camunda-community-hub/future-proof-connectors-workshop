@@ -86,6 +86,11 @@ To implement an outbound connector we can use a template by Camunda. That would 
 To build a sustainable connector we are going to use a hexagonal architecture. This allows us to keep the domain specific data transformations separate from the API requirements of the third party application. 
 In belows graphic you can find a hexagonal architecture: 
 ![Hexagonal Architecture](/docs/hex.png)
+As you can see, we are having so-called "Input" and "Output Adapter". Using them we can achieve some reusability and vendor specific implementations. 
+
+This way we also start building our connector application. 
+A solution can be found in [here](./notification-connector).
+
 
 
 
