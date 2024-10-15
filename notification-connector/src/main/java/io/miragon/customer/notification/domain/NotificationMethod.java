@@ -5,7 +5,6 @@ import lombok.RequiredArgsConstructor;
 
 import java.util.Arrays;
 
-@RequiredArgsConstructor
 @Getter
 public enum NotificationMethod {
     EMAIL,
@@ -15,6 +14,6 @@ public enum NotificationMethod {
         return Arrays.stream(NotificationMethod.values())
                 .filter(notificationMethod -> notificationMethod.name().equals(name))
                 .findFirst()
-                .orElseThrow(() -> new IllegalArgumentException("No such dining option: " + name));
+                .orElseThrow(() -> new IllegalArgumentException("No such notification-method: " + name));
     }
 }

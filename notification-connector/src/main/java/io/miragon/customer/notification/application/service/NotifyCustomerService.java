@@ -9,15 +9,15 @@ import io.miragon.customer.notification.application.port.out.sendSMS.SendSmsOutP
 import io.miragon.customer.notification.domain.Customer;
 import io.miragon.customer.notification.domain.Notification;
 import io.miragon.customer.notification.domain.NotificationMethod;
-import lombok.AllArgsConstructor;
+import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
 @Service
-@AllArgsConstructor
+@RequiredArgsConstructor
 public class NotifyCustomerService implements NotifyCustomerUseCase {
 
-    private SendSmsOutPort sendSmsOutPort;
-    private SendMailOutPort sendMailOutPort;
+    private final SendSmsOutPort sendSmsOutPort;
+    private final SendMailOutPort sendMailOutPort;
 
     @Override
     public void notifyCustomer(NotifyCustomerInCommand notifyCustomerInCommand) throws Exception {

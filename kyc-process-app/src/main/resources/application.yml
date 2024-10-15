@@ -1,9 +1,13 @@
 # https://docs.camunda.io/docs/apis-tools/spring-zeebe-sdk/getting-started/
 # https://docs.camunda.io/docs/apis-tools/spring-zeebe-sdk/configuration/
 
-zeebe.client:
-  cloud:
+camunda:
+  client:
+    cluster-id: 2f2efc37-6219-4e69-b79b-edb662f2bc60
+    auth:
+      client-id: Ok_xDeGTLNkapyJ8AtDG.v6Io3UtQg-H
+      client-secret: hZOrGlbPJbIrQ.B1oZpCvflihk4PjV0id.ZZ2sm8g8VUdRlWuz4byJLhMZPnXaHb
     region: ont-1
-    clusterId: 2f2efc37-6219-4e69-b79b-edb662f2bc60
-    clientId: Y~iGfYb2xY_xyQ5_7zN4gWx-IMK2w6uR
-    clientSecret: 6WoxukmRoWwHgq~5x1.p-62Epoa_UPvIWSdr2-DJAcTDJrAUc4PjviKAXRy1Ak1R
+    mode: saas
+    zeebe:
+      prefer-rest-over-grpc: false
