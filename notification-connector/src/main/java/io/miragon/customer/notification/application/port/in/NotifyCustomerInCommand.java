@@ -11,14 +11,9 @@ import lombok.Setter;
 @AllArgsConstructor
 public class NotifyCustomerInCommand {
     private String notificationMethod;
-
     private String mailTopic;
-
     private String message;
-
     private String customerName;
-
     private String customerMobilePhone;
-
     private String customerEMail;
 }

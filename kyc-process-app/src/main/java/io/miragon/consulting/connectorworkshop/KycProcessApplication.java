@@ -13,33 +13,39 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Random;
+import java.util.logging.Logger;
 
 
 @SpringBootApplication
-@EnableZeebeClient
 @Deployment(resources = "classpath*:/process/*.*")
 public class KycProcessApplication {
+
+    private Logger log = Logger.getLogger(KycProcessApplication.class.getName());
+
     public static void main(String[] args) {
         SpringApplication.run(KycProcessApplication.class, args);
     }
 
     @JobWorker()
     public CheckResult checkApplicant(@VariablesAsType Application application){
+        log.info("Checking applicant: " + application);
         return new CheckResult(true);
     }
 
     @JobWorker()
     public VerificationResult verifyApplication(@VariablesAsType Application application){
+        log.info("Verifying application: " + application);
         return new VerificationResult(true);
     }
 
     @JobWorker()
     public void startOnboardingProcess(@VariablesAsType Application application){
-
+        log.info("Starting onboarding process for: " + application);
     }
 
     @JobWorker()
     public void restCall(@VariablesAsType Application application){
+
     }
 
     @JobWorker(type = "getCustomer_NotificationPreference")
