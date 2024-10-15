@@ -17,7 +17,7 @@ import java.util.logging.Logger;
 
 
 @SpringBootApplication
-@Deployment(resources = "classpath*:/process/*.*")
+@EnableZeebeClient
 public class KycProcessApplication {
 
     private Logger log = Logger.getLogger(KycProcessApplication.class.getName());
