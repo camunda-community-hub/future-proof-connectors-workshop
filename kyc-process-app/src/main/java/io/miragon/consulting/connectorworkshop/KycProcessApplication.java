@@ -17,7 +17,6 @@ import java.util.logging.Logger;
 
 
 @SpringBootApplication
-//@EnableZeebeClient
 @Deployment(resources = "classpath*:/process/*.*")
 public class KycProcessApplication {
 
