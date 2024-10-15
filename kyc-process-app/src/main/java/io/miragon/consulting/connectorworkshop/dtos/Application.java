@@ -2,7 +2,6 @@ package io.miragon.consulting.connectorworkshop.dtos;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
-import org.checkerframework.checker.signature.qual.FullyQualifiedName;
 
 @Getter
 @AllArgsConstructor
