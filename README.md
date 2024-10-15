@@ -2,7 +2,7 @@
 <img src="https://img.shields.io/badge/Version-Under%20Construction-red">
 <img src="https://img.shields.io/badge/Tutorial%20Reference%20Project-Tutorials%20for%20getting%20started%20with%20Camunda-%2338A3E1)">
 
-> This workshop has been created for CamundaCon New York 2024 but can also be completed asynchronously.
+> This workshop has been created for CamundaCon New York 2024 but can also be completed asynchronously.The slides of this workshop can be found [here](./docs/Connectors%20unleashed%20Crafting%20future-proof%20low-code%20solutions.pdf)
 
 ## Abstract
 Join us for practical insight into the world of Camunda connectors, and learn how to best use them cleanly and efficiently
